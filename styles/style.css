@@ -196,7 +196,7 @@
 html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
-  cursor: url("../assets/temp/up-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
+  cursor: url("assets/temp/up-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
 
   /* TODO: Replace the URL above to add a custom cursor. 
      If you want to use the default browser cursor, just delete this line. */
@@ -576,6 +576,7 @@ a.nav-link-primary:hover {
   -webkit-text-stroke-color: var(--color-nav-arrow-stroke-hover);
 }
 
+
 /* 
 
 ██   ██ ███████ ██████   ██████  
@@ -591,6 +592,19 @@ a.nav-link-primary:hover {
 /* Full-page intro area with logo, headline, icon, and footer nav            */
 /* Great place for first impression and personal branding                    */
 /* -------------------------------------------------------------------------- */
+
+
+.navbar {
+  width: 100%;
+  max-height: 90vh;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
 
 .hero {
   width: 100%;
