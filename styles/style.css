@@ -1236,6 +1236,15 @@ to keep your styles reusable and consistent.
 
 .play-page {
   /* Add page-specific layout or container styles here */
+background-image:url(/assets/thegarden/the-garden-background-image-ap-portfolio.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-small);
 }
 
 /*
@@ -1507,18 +1516,4 @@ to keep your styles reusable and consistent.
   }
 }
 
-/*
-
-███████ ██ ███    ██
-██      ██ ████   ██
-█████   ██ ██ ██  ██
-██      ██ ██  ██ ██
-██      ██ ██   ████
-                                              
-That’s a wrap, class! 🧑‍🎓✨
-
-*/
-
-/* 🎉 You made it to the end! */
-/* This is a great place to celebrate your progress, add Easter eggs, or leave notes for your future self. */
-/* Happy coding, and don’t forget to take breaks, stay hydrated, and share your work proudly. 💻✨🎨 */
+/* ------------------FIN----------------------- */
