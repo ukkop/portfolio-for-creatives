@@ -376,7 +376,7 @@ svg {
 /* Heading Styles (h1 - h6) */
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-family: var(--font-family-heading), monospace;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -729,7 +729,9 @@ h1:hover {  transform: translate(-1px,-1px);}
 }
 
 .nav-branding-logo {
-  width: 3rem;
+  max-width: 6rem;
+  min-width: 6rem;
+  
   /* TODO: Adjust the width of the logo on mobile devices here */
 }
 
@@ -1531,10 +1533,7 @@ background-image:url(/assets/thegarden/the-garden-background-image-ap-portfolio.
   .padding-jumbo {
     padding: var(--padding-jumbo);
   }
-  .nav-branding-logo {
-    width: 5rem;
-    /* TODO: Adjust the width of the logo on large devices here. */
-  }
+ 
 
   .hero {
     min-height: 100vh;
