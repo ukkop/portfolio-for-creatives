@@ -1402,6 +1402,18 @@ html {
 
 /* A great 404 page is a chance to leave a memorable impression when visitors land on a page that doesn't exist. Consider customizing this page to be more engaging, humorous, or on-brand with your site. Check out error.css for the gradient and glitch effect. */
 
+
+
+.the-garden-door {
+  margin-bottom: 1rem;
+  justify-content: center;
+  width: 50%;
+  height: 100;
+  max-width: max-content;
+  margin: auto;
+}
+
+
 .error-headline-wrapper {
   width: 85%;
   display: flex;
@@ -1722,4 +1734,53 @@ background-image:url(/assets/thegarden/the-garden-background-image-ap-portfolio.
   }
 }
 
-/* ------------------FIN----------------------- */
+/* ------------------FIN-----------------------
+
+
+               _.---._
+             .'       `.
+             :)       (:
+             \ (@) (@) /
+              \   A   /
+               )     (
+               \"""""/
+                `._.'
+                 .=.
+         .---._.-.=.-._.---.
+        / ':-(_.-: :-._)-:` \
+       / /' (__.-: :-.__) `\ \
+      / /  (___.-` '-.___)  \ \
+     / /   (___.-'^`-.___)   \ \
+    / /    (___.-'=`-.___)    \ \
+   / /     (____.'=`.____)     \ \
+  / /       (___.'=`.___)       \ \
+ (_.;       `---'.=.`---'       ;._)
+ ;||        __  _.=._  __        ||;
+ ;||       (  `.-.=.-.'  )       ||;
+ ;||       \    `.=.'    /       ||;
+ ;||        \    .=.    /        ||;
+ ;||       .-`.`-._.-'.'-.       ||;
+.:::\      ( ,): O O :(, )      /:::.
+|||| `     / /'`--'--'`\ \     ' ||||
+''''      / /           \ \      ''''
+         / /             \ \
+        / /               \ \
+       / /                 \ \
+      / /                   \ \
+     / /                     \ \
+    /.'                       `.\
+   (_)'                       `(_)
+    \\.                       .//
+     \\.                     .//
+      \\.                   .//
+       \\.                 .//
+        \\.               .//
+         \\.             .//
+    jgs   \\.           .//
+          ///)         (\\\
+        ,///'           `\\\,
+       ///'               `\\\
+      ""'                   '""
+
+
+*/
