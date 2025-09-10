@@ -1082,7 +1082,7 @@ background-color: #000;
 
 .footer-fineprint {
   font-size: 0.875rem; /* Slightly smaller for disclaimers or captions */
-  font-color: var(--color-text-secondary),##CBDEBF; 
+  color: var(--color-text-secondary),#CBDEBF; 
 }
 
 /* New item badges */
