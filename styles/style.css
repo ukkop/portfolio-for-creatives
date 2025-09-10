@@ -1256,11 +1256,6 @@ background-color: #000;
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
-.holding-page-animation {
-  height: 1rem;
-  width: auto;
-  margin-bottom: 1rem;
-}
 
 .holding-page-title {
   font-size: 1.5rem;
