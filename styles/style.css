@@ -377,7 +377,7 @@ svg {
 
 h1 {
   font-size: 2.2rem;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-heading), monospace;
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--h1-color);
@@ -385,7 +385,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-family: var(--font-family-heading);
+  font-family: var(--font-family-heading), monospace; 
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--h2-color);
@@ -454,7 +454,7 @@ em {
 /* Large project title — appears on individual project pages */
 .project-title {
   font-size: 3.625rem;
-  font-family: var(--font-family-project-title);
+  font-family: var(--font-family-project-title), monospace;
   color: var(--color-text-project-title);
   margin-bottom: 1rem;
 }
@@ -634,7 +634,8 @@ a {
 }
 
 h1 {
-  font-family: "Zilla Slab Highlight", cursive;
+  font-family: var(--font-family-body);
+  color: var(--color-text-primary);
   font-size: 2em;
   display: inline-block;
   background: white;
@@ -686,13 +687,6 @@ h1:hover {  transform: translate(-1px,-1px);}
 .overlay6 {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
 }
-
-
-
-
-
-
-
 
 
 
