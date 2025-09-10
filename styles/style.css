@@ -106,8 +106,8 @@
   --font-family-heading: "Eczar", serif;
   --font-family-project-title: "Eczar", serif;
   /* Core Colours */
-  --color-text-primary: #fff;
-  --color-text-secondary: #fff;
+  --color-text-primary: ##CBDEBF;
+  --color-text-secondary: ##CBDEBF;
   --color-accent-primary: ##CBDEBF;
   --color-accent-secondary: #ff057c;
   --color-overlay-primary: #CBDEBF;
