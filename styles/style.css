@@ -608,7 +608,7 @@ a.nav-link-primary:hover {
 /* -----------------------Imported from https://codepen.io/andrewukkop/pen/QwjPmWY  --------------------- */
 @import url("https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight");
 body {
-  background-color: #dcd9d4;
+  background-color: #080808;
   background-image: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.5) 0%,
@@ -731,7 +731,7 @@ h1:hover {  transform: translate(-1px,-1px);}
 .nav-branding-logo {
   max-width: 6rem;
   min-width: 6rem;
-  
+
   /* TODO: Adjust the width of the logo on mobile devices here */
 }
 
