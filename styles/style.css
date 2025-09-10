@@ -118,10 +118,10 @@
   --color-text-primary: ##CBDEBF;
   --color-text-secondary: ##CBDEBF;
   --color-accent-primary: ##CBDEBF;
-  --color-accent-secondary: #ff057c;
+  --color-accent-secondary: ##CBDEBF;
   --color-overlay-primary: #CBDEBF;
   --color-highlight: lemonchiffon;
-  --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
+  --color-fallback: ##CBDEBF; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
   --color-bg: #080808;
   --color-bg-about:  #080808;
@@ -137,17 +137,17 @@
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
-  --color-text-project-description: #222;
-  --color-text-project-sidebar: #222;
+  --color-text-project-description:##CBDEBF;
+  --color-text-project-sidebar: ##CBDEBF;
   --color-text-project-title: #CBDEBF;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #CBDEBF;
-  --color-link-hover: #111;
+  --color-link-hover: #fff;
   --color-link-visited: #CBDEBF;
   /* Navigation */
   --color-nav-link: #CBDEBF;
-  --color-nav-link-hover: #321575;
+  --color-nav-link-hover: #ffffff;
   --color-nav-arrow: #CBDEBF;
   --color-nav-arrow-hover: #000;
   --color-nav-arrow-stroke: #CBDEBF;
@@ -1082,7 +1082,7 @@ background-color: #000;
 
 .footer-fineprint {
   font-size: 0.875rem; /* Slightly smaller for disclaimers or captions */
-  color: var(--color-text-secondary); /* Themed color */
+  font-color: var(--color-text-secondary),##CBDEBF; 
 }
 
 /* New item badges */
