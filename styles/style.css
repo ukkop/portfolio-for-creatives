@@ -123,7 +123,7 @@
   --color-bg: #080808;
   --color-bg-about:  #080808;
   --color-bg-footer:  #080808;
-  --color-bg-holding-page: rgba(0, 0, 0, 0.6);
+  --color-bg-holding-page: #080808;
   /* Headings */
   --h1-color: #CBDEBF;
   --h2-color: #CBDEBF;
@@ -146,13 +146,13 @@
   --color-nav-link: #CBDEBF;
   --color-nav-link-hover: #ffffff;
   --color-nav-arrow: #CBDEBF;
-  --color-nav-arrow-hover: #000;
+  --color-nav-arrow-hover: #ffffff;
   --color-nav-arrow-stroke: #CBDEBF;
-  --color-nav-arrow-stroke-hover: #000;
+  --color-nav-arrow-stroke-hover: #ffffff;
   /* Components */
   --color-bg-full-width: #f5f5f5;
   --color-bg-project-description: #f5f5f5;
-  --color-bg-sidebar-project: orangered;
+  --color-bg-sidebar-project: rgb(173, 173, 173);
   --color-bg-sidebar-work: lemonchiffon;
   --color-gradient-hero: linear-gradient(90deg, #ead5ea, #cce3e3);
   --color-gradient-project-details: linear-gradient(-225deg, #f7eff3 0%, #dcc8dd 50%, #cbc4de 100%);
@@ -217,7 +217,6 @@ html {
 body {
   font-family: var(--font-family-body);
   color: var(--color-text-primary);
-  background: var(--color-bg);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
