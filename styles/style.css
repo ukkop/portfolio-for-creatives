@@ -67,9 +67,6 @@
 
 /* TODO: Delete any stylesheets you don't plan to use on your site. */
 
-/* File for animation effects that make elements move (e.g., flying) */
-@import url("make-something-fly.css");
-
 /* File for animation effects that make elements blink */
 @import url("make-something-blink.css");
 
@@ -1307,7 +1304,10 @@ html {
 .index-background-image-crossfade-1,
 .index-background-image-crossfade-2,
 .index-background-image-crossfade-3,
-.index-background-image-crossfade-4 {
+.index-background-image-crossfade-4,
+.index-background-image-crossfade-5,
+.index-background-image-crossfade-6,
+.index-background-image-crossfade-7 {
   position: absolute;
   top: 0;
   right: 0;
@@ -1318,25 +1318,44 @@ html {
 }
 
 .index-background-image-crossfade-1 {
-  background: url(./../assets/project-2/phantomoftheparadise-moviescene-ap-portfolio.jpg)
+  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_02.jpg)
     no-repeat center/cover fixed;
   z-index: -1;
 }
 
 .index-background-image-crossfade-2 {
-  background: url(./../assets/project-6/nitroglycerin-courier-ap-portfolio.jpg)
+  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_03.jpg)
     no-repeat top/cover fixed;
   z-index: -1;
 }
 
 .index-background-image-crossfade-3 {
-  background: url(./../assets/project-6/barbenheimer-courier-ap-portfolio.jpg)
+  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_04.jpg)
+
     no-repeat top/cover fixed;
   z-index: -1;
 }
 
 .index-background-image-crossfade-4 {
-  background: url(./../assets/thegarden/the-garden-background-image-ap-portfolio.jpg)
+  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_05.jpg)
+    no-repeat center/cover fixed;
+  z-index: -1;
+}
+
+.index-background-image-crossfade-5 {
+  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_06.jpg)
+    no-repeat center/cover fixed;
+  z-index: -1;
+}
+
+.index-background-image-crossfade-6 {
+  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_07.jpg)
+    no-repeat center/cover fixed;
+  z-index: -1;
+}
+
+.index-background-image-crossfade-7 {
+  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_08.jpg)
     no-repeat center/cover fixed;
   z-index: -1;
 }
@@ -1373,7 +1392,7 @@ html {
 .index-container-images-crossfade li {
   animation-name: background-image-crossfade-animation;
   animation-iteration-count: infinite;
-  animation-duration: 18s;
+  animation-duration: 10s;
 }
 
 /* slideshow css ends here*/
