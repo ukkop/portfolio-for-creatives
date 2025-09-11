@@ -126,7 +126,7 @@
   --color-bg: #080808;
   --color-bg-about:  #080808;
   --color-bg-footer:  #080808;
-  --color-bg-holding-page: rgba(82, 0, 255, 0.6);
+  --color-bg-holding-page: rgba(0, 0, 0, 0.6);
   /* Headings */
   --h1-color: #CBDEBF;
   --h2-color: #CBDEBF;
@@ -206,7 +206,6 @@ html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
   cursor: url("assets/temp/up-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
-
   /* TODO: Replace the URL above to add a custom cursor. 
      If you want to use the default browser cursor, just delete this line. */
 }
@@ -604,9 +603,8 @@ a.nav-link-primary:hover {
 /* -------------------------------------------------------------------------- */
 
 
-
 /* -----------------------Imported from https://codepen.io/andrewukkop/pen/QwjPmWY  --------------------- */
-@import url("https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight");
+
 body {
   background-color: #080808;
   background-image: linear-gradient(
@@ -638,7 +636,6 @@ h1 {
   color: var(--color-text-primary);
   font-size: 2em;
   display: inline-block;
-  background: white;
   transition: all 300ms;
   }
 h1:hover {  transform: translate(-1px,-1px);}
@@ -1255,9 +1252,8 @@ background-color: #000;
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1), var(--color-bg-holding-page)), var(--image-noise-texture);
-  /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
+  background: #ffffff;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
 
@@ -1295,7 +1291,6 @@ background-color: #000;
   color: var(--color-text-holding-footer); /* Custom color for the footer text */
   margin-bottom: 0; /* Removes default margin from the bottom of the copyright text */
 }
-
 
 
 /*This is for the Index/Holding slideshow on Index*/
@@ -1384,8 +1379,6 @@ html {
 /* slideshow css ends here*/
 
 
-
-
 /*
 ███████ ██████  ██████   ██████  ██████  
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
@@ -1393,11 +1386,6 @@ html {
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
 ███████ ██   ██ ██   ██  ██████  ██   ██ 
 */
-
-/* TODO: Customize your 404 Error Page */
-
-/* A great 404 page is a chance to leave a memorable impression when visitors land on a page that doesn't exist. Consider customizing this page to be more engaging, humorous, or on-brand with your site. Check out error.css for the gradient and glitch effect. */
-
 
 
 .the-garden-door {
