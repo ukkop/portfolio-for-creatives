@@ -112,7 +112,7 @@
   --font-family-heading: "Anonymous Pro", monospace;
   --font-family-project-title: "Anonymous Pro", monospace;
   /* Core Colours */
-  --color-text-primary: ##CBDEBF;
+  --color-text-primary: #CBDEBF;
   --color-text-secondary: ##CBDEBF;
   --color-accent-primary: ##CBDEBF;
   --color-accent-secondary: ##CBDEBF;
@@ -602,17 +602,8 @@ a.nav-link-primary:hover {
 /* -----------------------Imported from https://codepen.io/andrewukkop/pen/QwjPmWY  --------------------- */
 
 body {
-  background-color: #080808;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
-    radial-gradient(
-      at 50% 0%,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(0, 0, 0, 0.5) 50%
-    );
+  background: #ffffff;
+  background: linear-gradient(0deg,rgba(255, 255, 255, 0) 15%, rgba(0, 0, 0, 1) 100%);
   background-blend-mode: soft-light, screen;
   min-height: 100vh;
   max-width: 100%;
