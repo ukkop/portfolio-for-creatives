@@ -25,7 +25,7 @@
 */
 
 /* Anonymous Pro */
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .anonymous-pro-regular {
   font-family: "Anonymous Pro", monospace;
@@ -50,7 +50,6 @@
   font-weight: 700;
   font-style: italic;
 }
-
 
 /* 
 ██ ███    ███ ██████   ██████  ██████  ████████      ██████ ███████ ███████ 
@@ -112,42 +111,42 @@
   --font-family-heading: "Anonymous Pro", monospace;
   --font-family-project-title: "Anonymous Pro", monospace;
   /* Core Colours */
-  --color-text-primary: #CBDEBF;
-  --color-text-secondary: ##CBDEBF;
-  --color-accent-primary: ##CBDEBF;
-  --color-accent-secondary: ##CBDEBF;
-  --color-overlay-primary: #CBDEBF;
+  --color-text-primary: #cbdebf;
+  --color-text-secondary: ##cbdebf;
+  --color-accent-primary: ##cbdebf;
+  --color-accent-secondary: ##cbdebf;
+  --color-overlay-primary: #cbdebf;
   --color-highlight: lemonchiffon;
-  --color-fallback: ##CBDEBF; /* Fallback color for glitch effect on 404 page */
+  --color-fallback: ##cbdebf; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
   --color-bg: #080808;
-  --color-bg-about:  #080808;
-  --color-bg-footer:  #1c1c1c;
+  --color-bg-about: #080808;
+  --color-bg-footer: #1c1c1c;
   --color-bg-holding-page: #080808;
   /* Headings */
-  --h1-color: #CBDEBF;
-  --h2-color: #CBDEBF;
-  --h3-color: #CBDEBF;
-  --h4-color: #CBDEBF;
-  --h5-color: #CBDEBF;
-  --h6-color: #CBDEBF;
+  --h1-color: #cbdebf;
+  --h2-color: #cbdebf;
+  --h3-color: #cbdebf;
+  --h4-color: #cbdebf;
+  --h5-color: #cbdebf;
+  --h6-color: #cbdebf;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
-  --color-text-project-description:##CBDEBF;
-  --color-text-project-sidebar: ##CBDEBF;
-  --color-text-project-title: #CBDEBF;
+  --color-text-project-description: ##cbdebf;
+  --color-text-project-sidebar: ##cbdebf;
+  --color-text-project-title: #cbdebf;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #CBDEBF;
+  --color-link: #cbdebf;
   --color-link-hover: #fff;
-  --color-link-visited: #CBDEBF;
+  --color-link-visited: #cbdebf;
   /* Navigation */
-  --color-nav-link: #CBDEBF;
+  --color-nav-link: #cbdebf;
   --color-nav-link-hover: #ffffff;
-  --color-nav-arrow: #CBDEBF;
+  --color-nav-arrow: #cbdebf;
   --color-nav-arrow-hover: #ffffff;
-  --color-nav-arrow-stroke: #CBDEBF;
+  --color-nav-arrow-stroke: #cbdebf;
   --color-nav-arrow-stroke-hover: #ffffff;
   /* Components */
   --color-bg-full-width: #f5f5f5;
@@ -155,7 +154,12 @@
   --color-bg-sidebar-project: rgb(173, 173, 173);
   --color-bg-sidebar-work: lemonchiffon;
   --color-gradient-hero: linear-gradient(90deg, #ead5ea, #cce3e3);
-  --color-gradient-project-details: linear-gradient(-225deg, #f7eff3 0%, #dcc8dd 50%, #cbc4de 100%);
+  --color-gradient-project-details: linear-gradient(
+    -225deg,
+    #f7eff3 0%,
+    #dcc8dd 50%,
+    #cbc4de 100%
+  );
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
@@ -201,7 +205,7 @@
 /* Add border-box sizing to make layout easier and enable smooth scrolling behavior */
 html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
-  scroll-behavior: smooth; 
+  scroll-behavior: smooth;
 }
 
 /* Ensure all elements, including pseudo-elements, follow border-box sizing */
@@ -225,7 +229,9 @@ body {
 /* ------------------------------- */
 
 ::selection {
-  background: var(--color-bg-selection); /* Uses your custom color for highlighted text */
+  background: var(
+    --color-bg-selection
+  ); /* Uses your custom color for highlighted text */
 }
 
 /* ---------------------------------------- */
@@ -377,7 +383,7 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-family: var(--font-family-heading), monospace; 
+  font-family: var(--font-family-heading), monospace;
   line-height: 1.2;
   margin-bottom: 1rem;
   color: var(--h2-color);
@@ -582,7 +588,6 @@ a.nav-link-primary:hover {
   -webkit-text-stroke-color: var(--color-nav-arrow-stroke-hover);
 }
 
-
 /* 
 
 ██   ██ ███████ ██████   ██████  
@@ -599,13 +604,12 @@ a.nav-link-primary:hover {
 /* Great place for first impression and personal branding                    */
 /* -------------------------------------------------------------------------- */
 
-
 /* -----------------------Imported from https://codepen.io/andrewukkop/pen/QwjPmWY  --------------------- */
 
 body {
-  background: #ffffff;
+  /*background: #ffffff;
   background: linear-gradient(0deg,rgba(255, 255, 255, 0) 15%, rgba(0, 0, 0, 1) 100%);
-  background-blend-mode: soft-light, screen;
+  background-blend-mode: soft-light, screen; */
   min-height: 100vh;
   max-width: 100%;
   padding: 2em;
@@ -616,7 +620,7 @@ body {
   overflow: hidden;
 }
 a {
-  color: black;
+  color: rgb(154, 255, 150);
 }
 
 h1 {
@@ -625,19 +629,22 @@ h1 {
   font-size: 2em;
   display: inline-block;
   transition: all 300ms;
-  }
-h1:hover {  transform: translate(-1px,-1px);}
+}
+h1:hover {
+  transform: translate(-1px, -1px);
+}
 
 .menu-item {
   margin-bottom: 0.5em;
 }
+
 /* A hidden full-screen overlay */
 .overlay1,
 .overlay2,
 .overlay3,
 .overlay4,
 .overlay5,
-.overlay6{
+.overlay6 {
   position: absolute;
   display: none;
   top: 0;
@@ -674,8 +681,7 @@ h1:hover {  transform: translate(-1px,-1px);}
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
 }
 
-
-
+/* end of imported code */
 
 .navbar {
   width: 100%;
@@ -685,7 +691,6 @@ h1:hover {  transform: translate(-1px,-1px);}
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .hero {
@@ -774,7 +779,9 @@ h1:hover {  transform: translate(-1px,-1px);}
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: var(--color-bg-full-width); /* Background color for full-width sections */
+  background: var(
+    --color-bg-full-width
+  ); /* Background color for full-width sections */
   margin-bottom: 1rem;
 }
 
@@ -822,13 +829,17 @@ h1:hover {  transform: translate(-1px,-1px);}
 .portfolio,
 .project-wrapper,
 .work-sidebar-wrapper {
-  padding: var(--padding-tiny); /* Padding to keep content from touching edges */
+  padding: var(
+    --padding-tiny
+  ); /* Padding to keep content from touching edges */
 }
 
 /* Work Sidebar on Mobile */
 .work-sidebar {
   width: 100%;
-  background: var(--color-bg-sidebar-work); /* Background color for the sidebar */
+  background: var(
+    --color-bg-sidebar-work
+  ); /* Background color for the sidebar */
 }
 
 /* Main Work Area with Sidebar on Mobile */
@@ -839,7 +850,10 @@ h1:hover {  transform: translate(-1px,-1px);}
 /* Defining the work page grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Creates a responsive grid */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Creates a responsive grid */
   grid-gap: 1rem; /* Space between grid items */
   /* The auto-fit and minmax() function help ensure responsiveness across screen sizes */
 }
@@ -873,7 +887,9 @@ h1:hover {  transform: translate(-1px,-1px);}
   align-items: center;
   flex-direction: column;
   padding: var(--padding-small);
-  background-color: var(--color-overlay-primary); /* Background color of the overlay */
+  background-color: var(
+    --color-overlay-primary
+  ); /* Background color of the overlay */
   transition: opacity var(--duration-normal), visibility var(--duration-normal);
 }
 
@@ -885,7 +901,7 @@ h1:hover {  transform: translate(-1px,-1px);}
 
 /* Optional container for future overlay customization */
 .project-details-overlay {
-background-color: #000;
+  background-color: #000;
   /* Placeholder: no custom styles yet */
 }
 
@@ -1062,7 +1078,7 @@ background-color: #000;
 
 .footer-fineprint {
   font-size: 0.875rem; /* Slightly smaller for disclaimers or captions */
-  color: var(--color-text-secondary),#CBDEBF; 
+  color: var(--color-text-secondary), #cbdebf;
 }
 
 /* New item badges */
@@ -1166,7 +1182,9 @@ background-color: #000;
 .project-details {
   width: 100%;
   padding: var(--padding-small);
-  background: var(--color-gradient-project-details); /* TODO: Remove gradient background if you prefer a simpler design */
+  background: var(
+    --color-gradient-project-details
+  ); /* TODO: Remove gradient background if you prefer a simpler design */
 }
 
 /* Previous/Next Arrow Styles */
@@ -1236,11 +1254,14 @@ background-color: #000;
   width: 100%;
   min-height: 100vh;
   background: #ffffff;
-background: linear-gradient(0deg, rgba(255, 255, 255, 0) 15%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 15%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
-
-.holding-page-inner-container{
+.holding-page-inner-container {
   display: grid;
   place-items: center;
   gap: 2rem;
@@ -1262,7 +1283,7 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0) 15%, rgba(0, 0, 0, 1) 1
 .holding-page-logo {
   place-items: center;
   max-width: 35%;
-  min-width:  35%;
+  min-width: 35%;
   max-height: auto;
   vertical-align: top;
   object-fit: contain;
@@ -1271,10 +1292,11 @@ background: linear-gradient(0deg, rgba(255, 255, 255, 0) 15%, rgba(0, 0, 0, 1) 1
 .holding-page-copyright {
   place-items: center;
   font-size: 0.8rem; /* Smaller font size for copyright text */
-  color: var(--color-text-holding-footer); /* Custom color for the footer text */
+  color: var(
+    --color-text-holding-footer
+  ); /* Custom color for the footer text */
   margin-bottom: 0; /* Removes default margin from the bottom of the copyright text */
 }
-
 
 /*This is for the Index/Holding slideshow on Index*/
 
@@ -1317,7 +1339,6 @@ html {
 
 .index-background-image-crossfade-3 {
   background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_04.jpg)
-
     no-repeat top/cover fixed;
   z-index: -1;
 }
@@ -1383,7 +1404,6 @@ html {
 
 /* slideshow css ends here*/
 
-
 /*
 ███████ ██████  ██████   ██████  ██████  
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
@@ -1391,7 +1411,6 @@ html {
 ██      ██   ██ ██   ██ ██    ██ ██   ██ 
 ███████ ██   ██ ██   ██  ██████  ██   ██ 
 */
-
 
 .the-garden-door {
   margin-bottom: 1rem;
@@ -1401,7 +1420,6 @@ html {
   max-width: max-content;
   margin: auto;
 }
-
 
 .error-headline-wrapper {
   width: 85%;
@@ -1450,9 +1468,6 @@ html {
   justify-content: center;
   padding: var(--padding-small);
 }
-
-
-
 
 /*
 ███████ ██   ██ ███████ ████████  ██████ ██   ██ ██████   ██████   ██████  ██   ██ 
@@ -1506,7 +1521,7 @@ html {
   }
 
   h1 {
-    font-size: 4.275rem;
+    font-size: 3.275rem;
   }
 
   h2 {
@@ -1525,7 +1540,6 @@ html {
   .padding-jumbo {
     padding: var(--padding-jumbo);
   }
- 
 
   .hero {
     min-height: 100vh;
