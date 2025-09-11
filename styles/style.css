@@ -201,10 +201,7 @@
 /* Add border-box sizing to make layout easier and enable smooth scrolling behavior */
 html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
-  scroll-behavior: smooth; /* Adds smooth scrolling between sections */
-  cursor: url("assets/temp/up-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
-  /* TODO: Replace the URL above to add a custom cursor. 
-     If you want to use the default browser cursor, just delete this line. */
+  scroll-behavior: smooth; 
 }
 
 /* Ensure all elements, including pseudo-elements, follow border-box sizing */
@@ -664,7 +661,8 @@ h1:hover {  transform: translate(-1px,-1px);}
   background-position: bottom center;
 }
 .overlay3 {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+  background-image: url(assets/work-page-images/andy-ukkop-poystila_goblin-shark-character-design.jpg);
+  background-position: bottom center;
 }
 .overlay4 {
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
@@ -814,12 +812,6 @@ h1:hover {  transform: translate(-1px,-1px);}
  ███ ███   ██████  ██   ██ ██   ██     ██      ██   ██  ██████  ███████ 
 
 */
-
-/* -------------------------------------------------------------------------- */
-/* 🔲 Work Page Layout Components                                               */
-/* These styles create the layout for your work portfolio and project pages    */
-/* The goal is to showcase your projects and provide a responsive, clean UI  */
-/* -------------------------------------------------------------------------- */
 
 /* Work wrapper (takes up available space) */
 .main-work-section {
@@ -1436,22 +1428,8 @@ html {
 ██      ███████ ██   ██    ██    
 */
 
-/* Play Page Styles
-––––––––––––––––––––––––––––––––––––––––––––––––––
-Custom styles specific to the "Play" page layout and content.
-
-✅ Masonry layout is defined separately in masonry.css  
-✅ Lightbox functionality is handled via Lightbox2 (in /lightbox2 folder)  
-✅ Rotate and other utility classes are already included in the base styles (this file)
-
-Use this section to style elements that are *unique to the Play page*.
-For common layout or effects, continue using the base utility classes
-to keep your styles reusable and consistent.
-*/
-
-.play-page {
-  /* Add page-specific layout or container styles here */
-background-image:url(/assets/thegarden/the-garden-background-image-ap-portfolio.jpg);
+.garden-background {
+  background-image: url(assets/thegarden/andy-ukkop-poystila_the-garden-background-image-ap-portfolio.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
@@ -1462,8 +1440,21 @@ background-image:url(/assets/thegarden/the-garden-background-image-ap-portfolio.
   padding: var(--padding-small);
 }
 
-/*
+.play-page {
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-small);
+}
 
+
+
+
+/*
 ███████ ██   ██ ███████ ████████  ██████ ██   ██ ██████   ██████   ██████  ██   ██ 
 ██      ██  ██  ██         ██    ██      ██   ██ ██   ██ ██    ██ ██    ██ ██  ██  
 ███████ █████   █████      ██    ██      ███████ ██████  ██    ██ ██    ██ █████   
