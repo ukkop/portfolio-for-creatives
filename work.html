@@ -29,6 +29,12 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+      integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -36,12 +42,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <script src="js/javascript.js"></script>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
   <body class="work-page" id="top">
-    <section class="hero">
-      <!-- Global Nav  -->
+    <!-- Global Nav  -->
+    <div class="outer-wrapper">
       <ul class="nav-branding">
         <li>
           <a href="index.html"
@@ -60,50 +67,39 @@
 
       <!-- Header  -->
 
-      <h2>Check out my work!</h2>
+      <div class="overlay-wrapper">
+        <h2>Check out my work!</h2>
+        <div class="overlay1"></div>
+        <div class="overlay2"></div>
+        <div class="overlay3"></div>
+        <div class="overlay4"></div>
 
-      <div class="overlay1"></div>
-      <div class="overlay2"></div>
-      <div class="overlay3"></div>
-      <div class="overlay4"></div>
-      <div class="overlay5"></div>
-      <div class="overlay6"></div>
-      <ul class="navigation-menu">
-        <li class="menu-item">
-          <a href="project-1.html" id="navigation-item-1" class="item">
-            <h1>Capstone (TBD)</h1>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="project-2.html" id="navigation-item-2" class="item">
-            <h1>Trail Mixers</h1>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="project-3.html" id="navigation-item-3" class="item">
-            <h1>Goblin-Shark Chara. Design</h1>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="project-4.html" id="navigation-item-4" class="item">
-            <h1>Bladerunner Dell’Arte Lineup</h1>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="project-5.html" id="navigation-item-5" class="item">
-            <h1>Stay Energized</h1>
-          </a>
-        </li>
-        <li class="menu-item">
-          <a href="project-6.html" id="navigation-item-6" class="item">
-            <h1>The Road Back Home</h1>
-          </a>
-        </li>
-      </ul>
-    </section>
+        <ul class="navigation-menu">
+          <li class="menu-item">
+            <a href="project-1.html" id="navigation-item-1" class="item">
+              <h1>Trail Mixers</h1>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="project-2.html" id="navigation-item-2" class="item">
+              <h1>Illustrations</h1>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="project-3.html" id="navigation-item-3" class="item">
+              <h1>Capstone</h1>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="project-4.html" id="navigation-item-4" class="item">
+              <h1>FOURTH ONE</h1>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-    <!--Global Footer ORIGIN POINT -->
-    <footer>
+      <!--Global Footer ORIGIN POINT -->
+
       <ul class="footer-global">
         <li class="footer-tagline">
           <h4>andypoystila22@gmail.com - Burnaby BC Canada</h4>
@@ -116,61 +112,67 @@
                 new Date().getFullYear();
             </script>
           </p>
-        </li>
-        <li class="footer-contact-social">
-          <a
-            href="https://www.instagram.com/_ukkop_/"
-            target="_blank"
-            class="custom-navigation"
-            ><i
-              class="fa-brands fa-instagram fa-large"
-              style="color: #cbdebf"
-            ></i
-          ></a>
-        </li>
 
-        <li>
-          <a
-            href="www.linkedin.com/in/andrew-ukko-poystila-42b723229"
-            target="_blank"
-            class="custom-navigation"
-            ><i
-              class="fa-brands fa-linkedin-in fa-large"
-              style="color: #cbdebf"
-            ></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.artstation.com/ukkop"
-            target="_blank"
-            class="custom-navigation"
-            ><i
-              class="fa-brands fa-artstation fa-large"
-              style="color: #cbdebf"
-            ></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="https://www.behance.net/andyukkopoystila"
-            target="_blank"
-            class="custom-navigation"
-            ><i class="fa-brands fa-behance fa-large" style="color: #cbdebf"></i
-          ></a>
-        </li>
-        <li>
-          <a
-            href="mailto:andypoystila22@gmail.com"
-            target="_blank"
-            class="custom-navigation"
-            ><i
-              class="fa-regular fa-envelope fa-large"
-              style="color: #cbdebf"
-            ></i
-          ></a>
+          <ul>
+            <li class="footer-contact-social">
+              <a
+                href="https://www.instagram.com/_ukkop_/"
+                target="_blank"
+                class="custom-navigation"
+                ><i
+                  class="fa-brands fa-instagram fa-large"
+                  style="color: #cbdebf"
+                ></i
+              ></a>
+            </li>
+
+            <li>
+              <a
+                href="www.linkedin.com/in/andrew-ukko-poystila-42b723229"
+                target="_blank"
+                class="custom-navigation"
+                ><i
+                  class="fa-brands fa-linkedin-in fa-large"
+                  style="color: #cbdebf"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.artstation.com/ukkop"
+                target="_blank"
+                class="custom-navigation"
+                ><i
+                  class="fa-brands fa-artstation fa-large"
+                  style="color: #cbdebf"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.behance.net/andyukkopoystila"
+                target="_blank"
+                class="custom-navigation"
+                ><i
+                  class="fa-brands fa-behance fa-large"
+                  style="color: #cbdebf"
+                ></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="mailto:andypoystila22@gmail.com"
+                target="_blank"
+                class="custom-navigation"
+                ><i
+                  class="fa-regular fa-envelope fa-large"
+                  style="color: #cbdebf"
+                ></i
+              ></a>
+            </li>
+          </ul>
         </li>
       </ul>
-    </footer>
+    </div>
   </body>
 </html>
