@@ -606,45 +606,14 @@ a.nav-link-primary:hover {
 
 /* -----------------------Imported from https://codepen.io/andrewukkop/pen/QwjPmWY  --------------------- */
 
-body {
-  /*background: #ffffff;
-  background: linear-gradient(0deg,rgba(255, 255, 255, 0) 15%, rgba(0, 0, 0, 1) 100%);
-  background-blend-mode: soft-light, screen; */
-  min-height: 100vh;
-  max-width: 100%;
-  padding: 2em;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  overflow: hidden;
-}
-a {
-  color: rgb(154, 255, 150);
-}
-
-h1 {
-  font-family: var(--font-family-body);
-  color: var(--color-text-primary);
-  font-size: 2em;
-  display: inline-block;
-  transition: all 300ms;
-}
-h1:hover {
-  transform: translate(-1px, -1px);
-}
-
 .menu-item {
   margin-bottom: 0.5em;
 }
-
 /* A hidden full-screen overlay */
 .overlay1,
 .overlay2,
 .overlay3,
-.overlay4,
-.overlay5,
-.overlay6 {
+.overlay4 {
   position: absolute;
   display: none;
   top: 0;
@@ -661,24 +630,28 @@ h1:hover {
 
 /* Background images */
 .overlay1 {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/white-paper.jpg);
+  background-image: url(../assets/thegarden/butterfly54.gif);
 }
 .overlay2 {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/computer.jpg);
+  background-image: url(../assets/thegarden/magic-5966_256.gif);
   background-position: bottom center;
 }
 .overlay3 {
-  background-image: url(assets/work-page-images/andy-ukkop-poystila_goblin-shark-character-design.jpg);
-  background-position: bottom center;
+  background-image: url(../assets/thegarden/goblin01.gif);
 }
+
 .overlay4 {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+  background-image: url(../assets/forbidden/andy-ukkop-poystila_forbidden-computer-cats.jpg);
 }
-.overlay5 {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+
+.outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.overlay6 {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/316293/phone.jpg);
+.overlay-wrapper {
+  flex: 1;
+  padding: 2rem;
 }
 
 /* end of imported code */
@@ -698,6 +671,7 @@ h1:hover {
   min-height: 80vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
+  background: lightblue;
 }
 .hero-header {
   min-height: 6rem; /* Space reserved for logo + nav */
@@ -709,6 +683,7 @@ h1:hover {
   justify-content: space-between;
   padding: var(--padding-small);
   align-items: center;
+  background: orangered;
 }
 
 .nav-branding-group {
@@ -1521,7 +1496,7 @@ html {
   }
 
   h1 {
-    font-size: 3.275rem;
+    font-size: 2rem;
   }
 
   h2 {
