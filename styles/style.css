@@ -674,7 +674,7 @@ a.nav-link-primary:hover {
   min-height: 80vh; /* Takes up most of the screen height */
   display: flex;
   flex-direction: column;
-  background: lightblue;
+  background: rgb(0, 0, 0);
 }
 .hero-header {
   min-height: 6rem; /* Space reserved for logo + nav */
