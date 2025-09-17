@@ -162,7 +162,7 @@
   );
   /* Special Elements */
   --color-icon-heart: darkred;
-  --color-text-holding-footer: #f8f8ff;
+  --color-text-holding-footer: #000000;
   --color-bg-selection: #525637;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
@@ -354,7 +354,7 @@ svg {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: lightblue;
+  background: rgb(0, 0, 0);
   padding: var(--padding-small);
 }
 
