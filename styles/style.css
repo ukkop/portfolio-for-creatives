@@ -1486,7 +1486,7 @@ html {
 
 .sketchbook-page {
   display: grid;
-  place-items: center;
+  place-items: inherit;
 }
 
 /*
