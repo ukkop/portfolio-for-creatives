@@ -31,4 +31,20 @@ $(document).ready(function () {
       $(".overlay4").fadeOut(500);
     }
   );
+  $("#navigation-item-5").hover(
+    function () {
+      $(".overlay5").fadeIn(500);
+    },
+    function () {
+      $(".overlay5").fadeOut(500);
+    }
+  );
+  $("#navigation-item-6").hover(
+    function () {
+      $(".overlay6").fadeIn(500);
+    },
+    function () {
+      $(".overlay6").fadeOut(500);
+    }
+  );
 });

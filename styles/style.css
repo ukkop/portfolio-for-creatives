@@ -613,7 +613,9 @@ a.nav-link-primary:hover {
 .overlay1,
 .overlay2,
 .overlay3,
-.overlay4 {
+.overlay4,
+.overlay5,
+.overlay6 {
   position: absolute;
   display: none;
   top: 0;
@@ -630,10 +632,10 @@ a.nav-link-primary:hover {
 
 /* Background images */
 .overlay1 {
-  background-image: url(../assets/thegarden/butterfly54.gif);
+  background-image: url(../assets/work-page-images/iyoba-andy-animated-ogfile.gif);
 }
 .overlay2 {
-  background-image: url(../assets/thegarden/magic-5966_256.gif);
+  background-image: url(../assets/work-page-images/WIP-KeyArt-AndyPoystila-MentorProject_FlattenandRender_2025\ copy\ 2.jpeg);
   background-position: bottom center;
 }
 .overlay3 {
@@ -641,6 +643,14 @@ a.nav-link-primary:hover {
 }
 
 .overlay4 {
+  background-image: url(../assets/forbidden/andy-ukkop-poystila_forbidden-computer-cats.jpg);
+}
+
+.overlay5 {
+  background-image: url(../assets/work-page-images/237_AndyPoystila_ParticipactionGIF.gif);
+}
+
+.overlay6 {
   background-image: url(../assets/forbidden/andy-ukkop-poystila_forbidden-computer-cats.jpg);
 }
 
