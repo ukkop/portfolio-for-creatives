@@ -33,7 +33,8 @@
   </head>
 
   <body class="sketchbook-page">
-      <ul class="nav-branding">
+    <header class="nav-branding">
+      <ul>
         <li>
           <a href="index.html"
             ><svg
@@ -148,77 +149,75 @@
           <a href="sketchbook.html" class="custom-navigation">sketchbook</a>
         </li>
       </ul>
-      </header>
+    </header>
 
+    <section class="project-1">
+      <div class="project-wrapper">
+        <div class="project-details">
+          <a
+            href="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-1.jpg"
+            data-lightbox="project-1"
+            data-title="Single Image"
+          >
+            <figure class="project-image border">
+              <img
+                src="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-1.jpg"
+                width="1920"
+                height="1080"
+                loading="lazy"
+                alt="Describe your project"
+              />
+            </figure>
+          </a>
+          <a
+            href="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-2.jpg"
+            data-lightbox="set-1"
+            data-title="Image Set 1"
+          >
+            <figure class="project-image">
+              <img
+                src="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-2.jpg"
+                width="1920"
+                height="1080"
+                loading="lazy"
+                alt="Describe your project"
+              />
+            </figure>
+          </a>
+          <a
+            href="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-3.jpg"
+            data-lightbox="set-1"
+            data-title="Image Set 1"
+          >
+            <figure class="project-image">
+              <img
+                src="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-3.jpg"
+                width="1920"
+                height="1080"
+                loading="lazy"
+                alt="Describe your project"
+              />
+            </figure>
+          </a>
+        </div>
+      </div>
 
-  <section class="project-1">
-    <div class="project-wrapper">
-      <main class="project-details">
-        <a
-          href="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-1.jpg"
-          data-lightbox="project-1"
-          data-title="Single Image"
-        >
-          <figure class="project-image border">
-            <img
-              src="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-1.jpg"
-              width="1920"
-              height="1080"
-              loading="lazy"
-              alt="Describe your project"
-            />
-          </figure>
-        </a>
-        <a
-          href="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-2.jpg"
-          data-lightbox="set-1"
-          data-title="Image Set 1"
-        >
-          <figure class="project-image">
-            <img
-              src="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-2.jpg"
-              width="1920"
-              height="1080"
-              loading="lazy"
-              alt="Describe your project"
-            />
-          </figure>
-        </a>
-        <a
-          href="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-3.jpg"
-          data-lightbox="set-1"
-          data-title="Image Set 1"
-        >
-          <figure class="project-image">
-            <img
-              src="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-3.jpg"
-              width="1920"
-              height="1080"
-              loading="lazy"
-              alt="Describe your project"
-            />
-          </figure>
-        </a>
-      </main>
-    </div>
-    
-    
-    <script src="./lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
-    <script>
-      myID = document.getElementById("myID");
+      <script src="./lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+      <script>
+        myID = document.getElementById("myID");
 
-      var myScrollFunc = function () {
-        var y = window.scrollY;
-        if (y >= 800) {
-          myID.className = "bottomMenu show";
-        } else {
-          myID.className = "bottomMenu hide";
-        }
-      };
+        var myScrollFunc = function () {
+          var y = window.scrollY;
+          if (y >= 800) {
+            myID.className = "bottomMenu show";
+          } else {
+            myID.className = "bottomMenu hide";
+          }
+        };
 
-      window.addEventListener("scroll", myScrollFunc);
-    </script>
-  </section>
+        window.addEventListener("scroll", myScrollFunc);
+      </script>
+    </section>
 
     <!--Global Footer -->
 
@@ -293,18 +292,5 @@
         </ul>
       </li>
     </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-    
   </body>
 </html>
