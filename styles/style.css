@@ -149,19 +149,22 @@
   --color-nav-arrow-stroke: #cbdebf;
   --color-nav-arrow-stroke-hover: #ffffff;
   /* Components */
-  --color-bg-full-width: #f5f5f5;
-  --color-bg-project-description: #f5f5f5;
-  --color-bg-sidebar-project: rgb(173, 173, 173);
-  --color-bg-sidebar-work: lemonchiffon;
-  --color-gradient-hero: linear-gradient(90deg, #ead5ea, #cce3e3);
+  --color-bg-full-width: #000000;
+  --color-bg-project-description: #1e1e1e;
+  --color-bg-sidebar-project: rgba(255, 255, 255, 0);
+  --color-bg-sidebar-work: rgb(86, 86, 86);
+  --color-gradient-hero: linear-gradient(
+    90deg,
+    hsl(0, 0%, 22%),
+    hsl(0, 0%, 21%)
+  );
   --color-gradient-project-details: linear-gradient(
     -225deg,
-    #f7eff3 0%,
-    #dcc8dd 50%,
-    #cbc4de 100%
+    #000000 0%,
+    #080808 50%,
+    #080808 100%
   );
   /* Special Elements */
-  --color-icon-heart: darkred;
   --color-text-holding-footer: #000000;
   --color-bg-selection: #525637;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
