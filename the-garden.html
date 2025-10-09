@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title> ukkop - Andy Poystila's Portfolio | The Garden </title>
+    <title>ukkop - Andy Poystila's Portfolio | The Garden</title>
 
- <!-- TEMP Favicon -->
-   <link rel="icon" type="image/x-icon" href="assets/myukkoplogo.png">
+    <!-- TEMP Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/myukkoplogo.png" />
 
     <meta name="enter the garden" content />
     <meta charset="utf-8" />
@@ -20,130 +20,71 @@
     ></script>
     <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
     <link rel="stylesheet" href="./styles/style.css" />
-    
-   <script src="js/draggabledivscript.js"></script> 
-     <!--<script src="js/sparklescript.js"></script> -->
 
+    <script src="js/draggabledivscript.js"></script>
+    <!--<script src="js/sparklescript.js"></script> -->
   </head>
 
-  <body class="work-page" id="top">
-    <section class="hero">
+  <body class="hero" id="top">
+    <section>
+      <!-- Global Nav  -->
 
-          <!-- Global Nav  -->
-  <ul class="nav-branding">
+      <ul
+        class="nav-branding"
+        style="justify-items: flex-start; justify-content: space-between"
+      >
         <li>
-        <a href="index.html"><img class="nav-branding-logo" src="assets/myukkoplogo.png" alt="ukkop"/></a>
+          <a href="index.html"
+            ><img
+              class="nav-branding-logo"
+              src="assets/myukkoplogo.png"
+              alt="ukkop"
+          /></a>
         </li>
-         <li> <div class="the-garden-spotify">
-          <iframe
-            style="border-radius: 12px"
-            src="https://open.spotify.com/embed/playlist/6h1NkZAMzN6dHw1mIge7St?utm_source=generator&theme=0"
-            width="300"
-            height="100"
-            frameborder="10"
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-            loading="lazy"
-          ></iframe>
-        </div> </li>
-        </ul>
-          <!-- Header  -->
-<header>
-      <div class="main-garden-area">
- 
-      <!-- The Gifs  -->
-
-
-
-<div id="mydiv">
-  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-  <div id="mydivheader">Click here to move</div>
-  <p>Move this div.</p>
-</div>
-
-      </div>
-    </div>
-    </header>
-
-<!--Global Footer
-
-      <ul class="footer-global">
-        <li class="footer-tagline">
-          <h4>andypoystila22@gmail.com - Burnaby BC Canada</h4>
-          <p class="footer-fineprint">
-            hand-coded with love and peace by © Andy Ukko Poystila
-            <script>
-              document.getElementById("copyright-years").textContent +=
-                new Date().getFullYear();
-            </script>
-          </p>
-
-          <ul class="footer-contact-social">
-            <li>
-              <a
-                href="https://www.instagram.com/_ukkop_/"
-                target="_blank"
-                class="custom-navigation"
-                ><i
-                  class="fa-brands fa-instagram fa-large"
-                  style="color: #cbdebf"
-                ></i
-              ></a>
-            </li>
-
-            <li>
-              <a
-                href="www.linkedin.com/in/andrew-ukko-poystila-42b723229"
-                target="_blank"
-                class="custom-navigation"
-                ><i
-                  class="fa-brands fa-linkedin-in fa-large"
-                  style="color: #cbdebf"
-                ></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.artstation.com/ukkop"
-                target="_blank"
-                class="custom-navigation"
-                ><i
-                  class="fa-brands fa-artstation fa-large"
-                  style="color: #cbdebf"
-                ></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.behance.net/andyukkopoystila"
-                target="_blank"
-                class="custom-navigation"
-                ><i
-                  class="fa-brands fa-behance fa-large"
-                  style="color: #cbdebf"
-                ></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="mailto:andypoystila22@gmail.com"
-                target="_blank"
-                class="custom-navigation"
-                ><i
-                  class="fa-regular fa-envelope fa-large"
-                  style="color: #cbdebf"
-                ></i
-              ></a>
-            </li>
-          </ul>
+        <li>
+          <div class="the-garden-spotify">
+            <iframe
+              data-testid="embed-iframe"
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/playlist/6h1NkZAMzN6dHw1mIge7St?utm_source=generator"
+              width="255%"
+              height="100"
+              frameborder="0"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            >
+            </iframe>
+          </div>
         </li>
       </ul>
 
+      <!-- Header  -->
+      <header>
+        <div class="main-garden-area">
+          <!-- The Gifs  -->
 
-
-
-
- -->
-
-
+          <div id="mydiv">
+            <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+            <div
+              id="mydivheader"
+              style="
+                translate: none;
+                rotate: none;
+                scale: none;
+                touch-action: none;
+                cursor: grab;
+                transform: translate3d(69.1289px, -16px, 0px);
+                user-select: none;
+                z-index: 1001;
+              "
+            >
+              Click here to move
+            </div>
+            <p>Move this div.</p>
+          </div>
+        </div>
+      </header>
+    </section>
   </body>
 </html>
