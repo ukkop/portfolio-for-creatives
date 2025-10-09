@@ -906,14 +906,13 @@ a.nav-link-primary:hover {
 /* Custom Work Page */
 
 .navigation-menu {
-  width: 30%;
-  padding: var(--padding-jumbo);
+  width: 100%;
   color: #080808;
 }
 
 .work-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex: 1;
   color: #080808;
 }
@@ -1529,11 +1528,15 @@ img {
 /* Sketchbook Page Styles */
 
 .sketchbook-page {
-  display: grid;
+  display: flex;
+  justify-content: end;
   place-items: inherit;
-  align-content: end;
 }
 
+.sketchbook-wrapper {
+  padding: var(--padding-tiny);
+  background-color: #000;
+}
 /*
 
 ███    ███ ███████ ██████  ██  █████       ██████  ██    ██ ███████ ██████  ██ ███████ ███████ 
@@ -1630,6 +1633,9 @@ img {
     filter: grayscale(0);
   }
 
+  .work-container {
+    flex-direction: row;
+  }
   /* Padding around work grid and project page */
 
   .portfolio,
@@ -1689,6 +1695,10 @@ img {
     padding-right: 1rem;
   }
 
+  .navigation-menu {
+    width: 30%;
+    padding: var(--padding-tiny);
+  }
   /* About Page Grid for Large Devices */
 
   .about-grid {
