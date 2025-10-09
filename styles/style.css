@@ -303,8 +303,32 @@ svg {
   transform: rotate(4deg);
 }
 
-.padding-jumbo {
+/* ----------------------------- */
+/* 📦 Padding Utilities (Mobile First) */
+/* ----------------------------- */
+
+.padding-tiny {
   padding: var(--padding-tiny);
+}
+
+.padding-small {
+  padding: var(--padding-small);
+}
+
+.padding-medium {
+  padding: var(--padding-small); /* smaller, mobile-safe default */
+}
+
+.padding-large {
+  padding: var(--padding-small); /* smaller, mobile-safe default */
+}
+
+.padding-jumbo {
+  padding: var(--padding-small); /* smaller, mobile-safe default */
+}
+
+.padding-ultra {
+  padding: var(--padding-small); /* smaller, mobile-safe default */
 }
 
 /* Puts the box on its own line and adds space underneath */
@@ -701,7 +725,7 @@ a.nav-link-primary:hover {
 
 .nav-branding {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: var(--padding-small);
   align-items: center;
   justify-content: space-between;
@@ -856,6 +880,10 @@ a.nav-link-primary:hover {
 }
 
 /* Individual Work Grid Item */
+
+.work-page {
+  background: #080808;
+}
 .work-page-grid-item {
   width: 100%;
   height: auto;
@@ -1695,9 +1723,11 @@ img {
     padding-right: 1rem;
   }
 
+  .nav-branding {
+    flex-direction: row;
+  }
   .navigation-menu {
     width: 30%;
-    padding: var(--padding-tiny);
   }
   /* About Page Grid for Large Devices */
 
