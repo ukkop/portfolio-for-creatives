@@ -1523,25 +1523,38 @@ img {
 
 .garden-hero {
   min-height: 80vh;
-  background-image: url(assets/thegarden/andy-ukkop-poystila_the-garden-background-image-ap-portfolio.jpg);
   background-size: cover;
   background-position: center;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: var(--padding-small);
 }
 
-.play-page {
-  background-size: cover;
-  background-position: center;
-  min-height: 100vh;
+.the-garden-spotify {
+  min-height: 80vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
   padding: var(--padding-small);
+  justify-content: flex-start;
+  align-content: center;
+  /* Gradient Nav */
+  background: #ffffff;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 54%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 54%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 54%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#000000", GradientType=0);
+  /* Gradient Nav End */
 }
 
 /*

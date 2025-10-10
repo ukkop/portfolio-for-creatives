@@ -25,66 +25,42 @@
     <!--<script src="js/sparklescript.js"></script> -->
   </head>
 
-  <body class="hero" id="top">
-    <section>
-      <!-- Global Nav  -->
+  <body id="top">
+    <style>
+      body {
+        background-image: url("assets/thegarden/andy-ukkop-poystila_the-garden-background-image-ap-portfolio.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+      }
+    </style>
+    <!--Special Garden Nav-->
 
-      <ul
-        class="nav-branding"
-        style="justify-items: flex-start; justify-content: space-between"
-      >
-        <li>
-          <a href="index.html"
-            ><img
-              class="nav-branding-logo"
-              src="assets/myukkoplogo.png"
-              alt="ukkop"
-          /></a>
-        </li>
-        <li>
-          <div class="the-garden-spotify">
-            <iframe
-              data-testid="embed-iframe"
-              style="border-radius: 12px"
-              src="https://open.spotify.com/embed/playlist/6h1NkZAMzN6dHw1mIge7St?utm_source=generator"
-              width="255%"
-              height="100"
-              frameborder="0"
-              allowfullscreen=""
-              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-              loading="lazy"
-            >
-            </iframe>
-          </div>
-        </li>
-      </ul>
-
-      <!-- Header  -->
-      <header>
-        <div class="main-garden-area">
-          <!-- The Gifs  -->
-
-          <div id="mydiv">
-            <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-            <div
-              id="mydivheader"
-              style="
-                translate: none;
-                rotate: none;
-                scale: none;
-                touch-action: none;
-                cursor: grab;
-                transform: translate3d(69.1289px, -16px, 0px);
-                user-select: none;
-                z-index: 1001;
-              "
-            >
-              Click here to move
-            </div>
-            <p>Move this div.</p>
-          </div>
-        </div>
-      </header>
-    </section>
+    <ul class="the-garden-spotify">
+      <!-- Logo (standalone LI) -->
+      <li class="nav-branding-logo">
+        <a href="index.html">
+          <img
+            src="assets/branding-images/myukkoplogo.svg"
+            alt="Your portfolio logo"
+          />
+        </a>
+      </li>
+      <li>
+        <iframe
+          data-testid="embed-iframe"
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/playlist/6h1NkZAMzN6dHw1mIge7St?utm_source=generator"
+          width="290%"
+          height="100"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        >
+        </iframe>
+      </li>
+    </ul>
   </body>
 </html>
