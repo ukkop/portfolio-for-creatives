@@ -1534,10 +1534,9 @@ img {
   display: flex;
   flex-direction: row;
   padding: var(--padding-small);
-  justify-content: flex-start;
-  align-content: center;
-  /* Gradient Nav */
+  justify-content: space-between;
   background: #ffffff;
+  display: flex;
   background: -webkit-linear-gradient(
     0deg,
     rgba(255, 255, 255, 0) 54%,
