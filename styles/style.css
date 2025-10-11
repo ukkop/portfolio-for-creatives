@@ -1286,7 +1286,6 @@ a.nav-link-primary:hover {
 ██   ██  ██████  ███████ ██████  ██ ██   ████  ██████  
                                                        
 */
-/* Holding page styles */
 
 .holding-page-wrapper {
   display: grid;
@@ -1296,24 +1295,25 @@ a.nav-link-primary:hover {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background: #ffffff;
+  /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
   background: linear-gradient(
-    0deg,
-    rgba(255, 255, 255, 0) 15%,
-    rgba(0, 0, 0, 1) 100%
-  );
+      0deg,
+      rgba(0, 0, 0, 1),
+      var(--background-color-holding-page)
+    ),
+    url(/assets/temp/noise.svg);
+  /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
 
-.holding-page-inner-container {
-  display: grid;
-  place-items: center;
-  gap: 2rem;
-  padding: var(--padding-small);
+.holding-page-animation {
+  margin-bottom: 1rem;
+  width: 30%;
+  margin: 0 auto;
 }
 
 .holding-page-title {
   font-size: 1.5rem;
-  color: var(--color-text-holding-title);
+  color: var(--holding-page-title-color);
 }
 
 .holding-page-footer {
@@ -1323,22 +1323,10 @@ a.nav-link-primary:hover {
   width: 100%;
 }
 
-.holding-page-logo {
-  place-items: center;
-  max-width: 35%;
-  min-width: 35%;
-  max-height: auto;
-  vertical-align: top;
-  object-fit: contain;
-}
-
 .holding-page-copyright {
-  place-items: center;
-  font-size: 0.8rem; /* Smaller font size for copyright text */
-  color: var(
-    --color-text-holding-footer
-  ); /* Custom color for the footer text */
-  margin-bottom: 0; /* Removes default margin from the bottom of the copyright text */
+  font-size: 0.8rem;
+  color: var(--holding-page-footer-color);
+  margin-bottom: 0;
 }
 
 /*This is for the Index/Holding slideshow on Index*/
@@ -1355,10 +1343,7 @@ html {
 .index-background-image-crossfade-1,
 .index-background-image-crossfade-2,
 .index-background-image-crossfade-3,
-.index-background-image-crossfade-4,
-.index-background-image-crossfade-5,
-.index-background-image-crossfade-6,
-.index-background-image-crossfade-7 {
+.index-background-image-crossfade-4 {
   position: absolute;
   top: 0;
   right: 0;
@@ -1369,43 +1354,25 @@ html {
 }
 
 .index-background-image-crossfade-1 {
-  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_02.jpg)
+  background: url(/.assets/rotating-background-image/andy-ukkop-poystila_rotating-background_04.jpg./assets/thegarden/the-garden-background-image-ap-portfolio.jpg)
     no-repeat center/cover fixed;
   z-index: -1;
 }
 
 .index-background-image-crossfade-2 {
-  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_03.jpg)
+  background: url(/.assets/rotating-background-image/andy-ukkop-poystila_rotating-background_04.jpg./assets/thegarden/the-garden-background-image-ap-portfolio.jpg)
     no-repeat top/cover fixed;
   z-index: -1;
 }
 
 .index-background-image-crossfade-3 {
-  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_04.jpg)
+  background: url(/.assets/rotating-background-image/andy-ukkop-poystila_rotating-background_04.jpg./assets/thegarden/the-garden-background-image-ap-portfolio.jpg)
     no-repeat top/cover fixed;
   z-index: -1;
 }
 
 .index-background-image-crossfade-4 {
-  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_05.jpg)
-    no-repeat center/cover fixed;
-  z-index: -1;
-}
-
-.index-background-image-crossfade-5 {
-  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_06.jpg)
-    no-repeat center/cover fixed;
-  z-index: -1;
-}
-
-.index-background-image-crossfade-6 {
-  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_07.jpg)
-    no-repeat center/cover fixed;
-  z-index: -1;
-}
-
-.index-background-image-crossfade-7 {
-  background: url(assets/rotating-background-image/andy-ukkop-poystila_rotating-background_08.jpg)
+  background: url(/.assets/rotating-background-image/andy-ukkop-poystila_rotating-background_04.jpg./assets/thegarden/the-garden-background-image-ap-portfolio.jpg)
     no-repeat center/cover fixed;
   z-index: -1;
 }
@@ -1442,7 +1409,7 @@ html {
 .index-container-images-crossfade li {
   animation-name: background-image-crossfade-animation;
   animation-iteration-count: infinite;
-  animation-duration: 10s;
+  animation-duration: 18s;
 }
 
 /* slideshow css ends here*/
