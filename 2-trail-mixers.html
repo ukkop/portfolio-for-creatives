@@ -29,19 +29,34 @@
   <body class="project-2" style="background-color: #080808">
     <header class="hero-header">
       <ul class="nav-branding">
-        <li><a href="work.html" class="custom-navigation">Work</a></li>
+        <!-- Logo (standalone LI) -->
         <li class="nav-branding-logo">
-          <a href="index.html"
-            ><img src="assets/branding-images/myukkoplogo.svg"
-          /></a>
+          <a href="index.html">
+            <img
+              src="assets/branding-images/myukkoplogo.svg"
+              alt="Your portfolio logo"
+            />
+          </a>
         </li>
-        <li><a href="about.html" class="custom-navigation">About</a></li>
+        <li class="nav-branding-item">
+          <ul class="nav-branding-group">
+            <li class="nav-branding-item">
+              <a href="work.html" class="nav-link-primary">Work</a>
+            </li>
+            <li class="nav-branding-item">
+              <a href="about.html" class="nav-link-primary">About</a>
+            </li>
+            <li class="nav-branding-item">
+              <a href="sketchbook.html" class="nav-link-primary">Sketchbook</a>
+            </li>
+          </ul>
+        </li>
       </ul>
     </header>
     <div class="project-wrapper">
       <aside class="project-aside">
         <div class="project-info">
-          <h1 class="project-title">Trail Mixers | Key art and UI Concept</h1>
+          <h1 class="project-title">Trail Mixers <br />Key Art</h1>
           <p class="project-description">
             With mentoring help from the talented Kim Parker, I designed a key
             art piece from a home cooked game concept titled Trail Mixers, a
@@ -60,12 +75,12 @@
         </div>
         <ul class="project-navigation">
           <li class="arrow">
-            <a href="project-1.html" class="navigation-arrow"
+            <a href="1-capstone.html" class="navigation-arrow"
               ><i class="fa-sharp fa-solid fa-arrow-left fa-2x"></i
             ></a>
           </li>
           <li class="arrow">
-            <a href="project-3.html" class="navigation-arrow"
+            <a href="3-.html" class="navigation-arrow"
               ><i class="fa-sharp fa-solid fa-arrow-right fa-2x"></i
             ></a>
           </li>
@@ -100,25 +115,6 @@
         </figure>
       </main>
     </div>
-
-    <div id="myID" class="bottomMenu hide">
-      <a href="project-1.html">Previous Project</a>
-    </div>
-
-    <script type="text/javascript">
-      myID = document.getElementById("myID");
-
-      var myScrollFunc = function () {
-        var y = window.scrollY;
-        if (y >= 800) {
-          myID.className = "bottomMenu show";
-        } else {
-          myID.className = "bottomMenu hide";
-        }
-      };
-
-      window.addEventListener("scroll", myScrollFunc);
-    </script>
 
     <ul class="footer-global">
       <li class="footer-tagline">
