@@ -1509,14 +1509,18 @@ html {
 /* Sketchbook Page Styles */
 
 .sketchbook-page {
+  background-image: url("assets/sketchbook/ukkop-andy-poystila-sketchbook-background-desk-illustrator.png");
   display: flex;
   justify-content: end;
   place-items: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
 }
 
 .sketchbook-wrapper {
   padding: var(--padding-tiny);
-  background-color: #000;
 }
 /*
 
