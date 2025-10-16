@@ -144,6 +144,7 @@
   /* Navigation */
   --color-nav-link: #cbdebf;
   --color-nav-link-hover: #ffffff;
+  --color-nav-link-inactive: #cbdebf65;
   --color-nav-arrow: #cbdebf;
   --color-nav-arrow-hover: #ffffff;
   --color-nav-arrow-stroke: #cbdebf;
@@ -578,6 +579,8 @@ a:active {
 
 a.nav-link-primary {
   color: var(--color-nav-link);
+  font-size: 2rem;
+  font-weight: bold;
 }
 a.nav-link-primary:hover {
   color: var(--color-nav-link-hover);
@@ -688,6 +691,7 @@ a.nav-link-primary:hover {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 174vh;
 }
 .overlay-wrapper {
   width: 70%;
@@ -726,7 +730,7 @@ a.nav-link-primary:hover {
 .nav-branding {
   display: flex;
   flex-direction: column;
-  padding: var(--padding-small);
+  padding-: var(--padding-small);
   align-items: center;
   justify-content: space-between;
   background: #ffffff00;
@@ -737,7 +741,7 @@ a.nav-link-primary:hover {
   flex-direction: row;
 }
 .nav-branding-item {
-  padding: var(--padding-tiny);
+  padding: var(--padding-small);
 }
 
 .nav-branding-logo {
@@ -1460,6 +1464,39 @@ html {
 
 /*DRAGGABLE DIVS - START -  HERE*/
 
+html,
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  max-width: 90vh;
+  max-height: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 9px;
+}
+
+.draggable {
+  cursor: pointer;
+  width: 100px;
+  height: 100px;
+  max-height: 15vh;
+  max-width: 15vh;
+}
+
+.flower-01 {
+  background-image: url(https://assets.codepen.io/16327/ui-flair-4.png);
+  height: 100px;
+  width: 100px;
+}
 /*DRAGGABLE DIVS - END -  HERE*/
 
 .garden-hero {
