@@ -676,7 +676,7 @@ a.nav-link-primary:hover {
 }
 
 .overlay4 {
-  background-image: url(../assets/project-4/andy-ukko-poystila-portfolio-vancouver-illustration-vis-dev-game-design_bladerunner-dellarte-remix_case-study_05.png);
+  background-image: url(../assets/work-page-images/andy-ukko-poystila-portfolio-vancouver-illustration-vis-dev-game-design_bladerunner-dellarte-remix_case-study_.png);
 }
 
 .overlay5 {
@@ -691,7 +691,7 @@ a.nav-link-primary:hover {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  width: 174vh;
+  width: 100%;
 }
 .overlay-wrapper {
   width: 70%;
