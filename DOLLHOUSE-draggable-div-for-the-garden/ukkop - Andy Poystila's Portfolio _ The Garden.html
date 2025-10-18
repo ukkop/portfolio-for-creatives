@@ -1,28 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="it's the sims but on paper" />
-    <title>sonia's dollhouse</title>
+    <meta property="og:image" content="screenshot.jpg" />
+    <meta name="enter the garden" content=""/>
+    <title>ukkop - Andy Poystila's Portfolio | The Garden</title>
     <script src="/script/navbar.js"></script>
     <script src="/script/points.js"></script>
-
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/myukkoplogo.png" />
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/32.png" />
+    <script
+      src="https://kit.fontawesome.com/d03271b35a.js"
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+    <link rel="stylesheet" href="styles/style.css"/>
   </head>
 
-  <body>
+  <body id="top">
+    <style>
+      body {
+        background-image: url("assets/thegarden/andy-ukkop-poystila_the-garden-background-image-ap-portfolio.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: black;
+      }
+    </style>
+
+    <!--Special Garden Nav - Start-->
+    <ul class="the-garden-spotify garden-nav-gradient">
+      <!-- Logo (standalone LI) -->
+      <li class="nav-branding-logo">
+        <a href="index.html">
+          <img
+            src="assets/branding-images/myukkoplogo.svg"
+            alt="Your portfolio logo"
+          />
+        </a>
+      </li>
+      <li style="margin-right: 20%">
+        <iframe
+          data-testid="embed-iframe"
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/playlist/6h1NkZAMzN6dHw1mIge7St?utm_source=generator"
+          width="200%"
+          height="100"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+        >
+        </iframe>
+      </li>
+    </ul>
+    <!--Special Garden Nav -  End-->
+
+    <!--Draggable divs -  Start-->
     <div id="main-content">
       <div class="background-container">
         <img
           id="background-image"
-          src="/assets/thegarden/andy-ukkop-poystila_the-garden-background-image-ap-portfolio.jpg"
           style="display: flex;
-          min-width: 100%;"
+          z-index: -1;"
           alt="garden background"
         />
         <div class="furniture">
@@ -129,6 +175,47 @@
     </button>
     
     </div>
-    <script src="dollhouse.js"></script>
-  </body>
+    <script src="js/draggabledivscript.js"></script>
+ 
+    <!--Draggable divs -  End-->
+
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
 </html>
