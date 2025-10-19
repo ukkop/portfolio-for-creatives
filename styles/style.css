@@ -1479,6 +1479,7 @@ html {
 
 .the-garden-spotify {
   min-height: 80vh;
+
   display: flex;
   flex-direction: row;
   padding: var(--padding-small);
