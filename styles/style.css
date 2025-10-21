@@ -586,6 +586,12 @@ a.nav-link-primary:hover {
   color: var(--color-nav-link-hover);
 }
 
+a.nav-link-primary-inactive {
+  color: var(--color-nav-link-inactive);
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* -------------------------------------------------------------------------- */
 /* 🧭 Previous & Next Project Navigation Arrows                               */
 /* These styles are for the left and right arrows used to move between       */
@@ -996,8 +1002,7 @@ a.nav-link-primary:hover {
   display: grid; /* Set to grid layout */
   grid-template-columns: 1fr; /* Single column layout for mobile and smaller screens */
   grid-gap: 3rem; /* Space between grid items */
-  border: dashed red;
-  border-style: dotted;
+
   background: var(--color-bg-about); /* Background color for the section */
   padding: var(--padding-small); /* Padding around the grid */
   flex: 1; /* Flex-grow to take up available space */
