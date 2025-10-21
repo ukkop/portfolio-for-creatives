@@ -1322,11 +1322,6 @@ a.nav-link-primary-inactive {
   margin: 0 auto;
 }
 
-.holding-page-title {
-  font-size: 1.5rem;
-  color: var(--holding-page-title-color);
-}
-
 .holding-page-footer {
   display: grid;
   place-items: center;
@@ -1334,12 +1329,12 @@ a.nav-link-primary-inactive {
   width: 100%;
 }
 
-.holding-page-copyright {
-  font-size: 0.8rem;
-  color: var(--holding-page-footer-color);
-  margin-bottom: 0;
+.holding-page {
+  background-color: #000;
+  margin-bottom: 1rem;
+  width: 30%;
+  margin: 0 auto;
 }
-
 /*This is for the Index/Holding slideshow on Index*/
 
 html {
