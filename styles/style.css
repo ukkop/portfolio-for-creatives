@@ -654,7 +654,8 @@ a.nav-link-primary-inactive {
 .overlay3,
 .overlay4,
 .overlay5,
-.overlay6 {
+.overlay6,
+.overlay7 {
   position: absolute;
   display: none;
   top: 0;
@@ -691,6 +692,10 @@ a.nav-link-primary-inactive {
 
 .overlay6 {
   background-image: url(../assets/work-page-images/andy-ukko-poystila-portfolio-vancouver-illustration-vis-dev-game-design_the-road-back-home_truth-and-reconcilliation_case-study.jpg);
+}
+
+.overlay7 {
+  background-image: url(../assets/);
 }
 
 .outer-wrapper {
@@ -1306,7 +1311,7 @@ a.nav-link-primary-inactive {
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } */
+  /* TODO: Delete the following if you do not want a grainy gradient background on index.html. Be careful not to delete the closing } 
   background: linear-gradient(
       0deg,
       rgba(0, 0, 0, 1),
