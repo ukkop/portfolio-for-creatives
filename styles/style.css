@@ -144,7 +144,7 @@
   /* Navigation */
   --color-nav-link: #cbdebf;
   --color-nav-link-hover: #ffffff;
-  --color-nav-link-inactive: rgb(203, 222, 191, 0.8);
+  --color-nav-link-inactive: #cbdebf90;
   --color-nav-arrow: #cbdebf;
   --color-nav-arrow-hover: #ffffff;
   --color-nav-arrow-stroke: #cbdebf;
