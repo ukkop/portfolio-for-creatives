@@ -112,12 +112,12 @@
   --font-family-project-title: "Anonymous Pro", monospace;
   /* Core Colours */
   --color-text-primary: #cbdebf;
-  --color-text-secondary: ##cbdebf;
-  --color-accent-primary: ##cbdebf;
-  --color-accent-secondary: ##cbdebf;
+  --color-text-secondary: #cbdebf;
+  --color-accent-primary: #44baf8;
+  --color-accent-secondary: #cbdebf;
   --color-overlay-primary: #cbdebf;
   --color-highlight: lemonchiffon;
-  --color-fallback: ##cbdebf; /* Fallback color for glitch effect on 404 page */
+  --color-fallback: #cbdebf; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
   --color-bg: #080808;
   --color-bg-about: #080808;
@@ -133,18 +133,18 @@
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
-  --color-text-project-description: ##cbdebf;
-  --color-text-project-sidebar: ##cbdebf;
+  --color-text-project-description: #cbdebf;
+  --color-text-project-sidebar: #cbdebf;
   --color-text-project-title: #cbdebf;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
   --color-link: #cbdebf;
-  --color-link-hover: #fff;
+  --color-link-hover: #44baf8;
   --color-link-visited: #cbdebf;
   /* Navigation */
   --color-nav-link: #cbdebf;
   --color-nav-link-hover: #ffffff;
-  --color-nav-link-inactive: #cbdebf65;
+  --color-nav-link-inactive: rgb(203, 222, 191, 0.8);
   --color-nav-arrow: #cbdebf;
   --color-nav-arrow-hover: #ffffff;
   --color-nav-arrow-stroke: #cbdebf;
@@ -458,9 +458,15 @@ p {
   color: var(--color-text-primary);
 }
 
+.bio {
+  font-size: 1.2rem;
+}
+
+.bullet-point {
+  margin-bottom: 0.5rem;
+}
 strong {
   font-weight: 700;
-  color: var(--color-text-primary); /* Makes text bold */
 }
 
 em {
@@ -508,6 +514,9 @@ em {
 /* ✨ Highlighted text — great for emphasis */
 .highlight-primary {
   color: var(--color-accent-secondary);
+}
+.highlight-primary:hover {
+  text-decoration: underline;
 }
 
 .highlight-gradient {
@@ -1014,15 +1023,19 @@ a.nav-link-primary-inactive {
 }
 
 /* Image section in the About page grid */
-.about-grid-image {
+.about-photo {
   grid-column: 1 / 2; /* Image spans the first column */
   grid-row: 1 / 2; /* Image spans the first row */
 }
 
-/* Text section in the About page grid */
-.about-grid-text {
+.about-bio {
   grid-column: 1 / 2; /* Text spans the first column */
   grid-row: 2 / 3; /* Text spans the second row */
+}
+/* Text section in the About page grid */
+.about-credentials {
+  grid-column: 1 / 2; /* Text spans the first column */
+  grid-row: 3 / 4; /* Text spans the second row */
 }
 
 /* 
@@ -1703,16 +1716,21 @@ html {
 
   .about-grid {
     padding: var(--padding-jumbo);
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
   }
 
-  .about-grid-image {
+  .about-photo {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
-  .about-grid-text {
-    grid-row: 1 / 2;
+
+  .about-bio {
     grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  .about-credentials {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
   }
 
   /* ------------------------------- */
