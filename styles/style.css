@@ -125,11 +125,11 @@
   --color-bg-holding-page: #080808;
   /* Headings */
   --h1-color: #cbdebf;
-  --h2-color: #cbdebf;
+  --h2-color: #94b67f;
   --h3-color: #cbdebf;
   --h4-color: #cbdebf;
   --h5-color: #cbdebf;
-  --h6-color: #cbdebf;
+  --h6-color: #94b67f;
   /* Special Text Colours */
   --color-text-holding-title: #ebedf0;
   --color-text-project-category: #ffffff;
@@ -144,7 +144,7 @@
   /* Navigation */
   --color-nav-link: #cbdebf;
   --color-nav-link-hover: #ffffff;
-  --color-nav-link-inactive: #cbdebf90;
+  --color-nav-link-inactive: #94b67f90;
   --color-nav-arrow: #cbdebf;
   --color-nav-arrow-hover: #ffffff;
   --color-nav-arrow-stroke: #cbdebf;
@@ -410,7 +410,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-family: var(--font-family-heading), monospace;
   line-height: 1.2;
   margin-bottom: 1rem;
@@ -440,9 +440,10 @@ h5 {
 }
 
 h6 {
-  font-size: 1rem;
-  line-height: 1.2;
-  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  line-height: 0.01;
+  margin-top: 0.1rem;
+  margin-bottom: 1.5rem;
   color: var(--h6-color);
 }
 
@@ -1590,6 +1591,10 @@ html {
 
 @media (min-width: 768px) {
   /* TODO: Adjust  layout for tablets */
+
+  h2 {
+    font-size: 1.6rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
