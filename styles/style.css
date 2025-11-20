@@ -443,7 +443,7 @@ h6 {
   font-size: 0.8rem;
   line-height: 0.01;
   margin-top: 0.1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.3rem;
   color: var(--h6-color);
 }
 
@@ -686,7 +686,7 @@ a.nav-link-primary-inactive {
   background-image: url(../assets/work-page-images/iyoba-andy-animated-ogfile.gif);
 }
 .overlay2 {
-  background-image: url(../assets/work-page-images/WIP-KeyArt-AndyPoystila-MentorProject_FlattenandRender_2025.jpeg);
+  background-image: url(../assets/work-page-images/andy-ukko-poystila-portfolio-vancouver-illustration-vis-dev-game-design_trail-mixers-splash-art_project-cover.jpg);
   background-position: bottom center;
 }
 .overlay3 {
@@ -1245,6 +1245,11 @@ a.nav-link-primary-inactive {
   background: var(--color-bg-sidebar-project);
 }
 
+.project-tools-list {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 /* Container for project images with center alignment */
 .project-image-container {
   display: flex;
@@ -1742,6 +1747,10 @@ html {
   }
   .navigation-menu {
     width: 30%;
+  }
+
+  .nav-name {
+    justify-content: center;
   }
   /* About Page Grid for Large Devices */
 
