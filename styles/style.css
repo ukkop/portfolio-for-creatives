@@ -1237,7 +1237,7 @@ a.nav-link-primary-inactive {
 
 /* Sidebar Styles */
 .project-aside {
-  width: 100%;
+  width: 10%;
   padding: var(--padding-small);
   display: flex;
   flex-direction: column;
@@ -1580,6 +1580,10 @@ html {
 .sketchbook-wrapper {
   padding: var(--padding-tiny);
 }
+
+.hidden {
+  display: none;
+}
 /*
 
 ███    ███ ███████ ██████  ██  █████       ██████  ██    ██ ███████ ██████  ██ ███████ ███████ 
@@ -1707,7 +1711,7 @@ html {
   /* Sidebar on Large Devices */
 
   .project-aside {
-    width: 35%;
+    width: 100%;
     height: 80vh;
     position: -webkit-sticky;
     position: sticky;
