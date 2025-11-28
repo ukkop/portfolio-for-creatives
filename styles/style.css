@@ -1582,8 +1582,20 @@ html {
 }
 
 .hidden {
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
 }
+
+.sketchbook-bg {
+  background-image: url("assets/sketchbook/ukkop-andy-poystila-sketchbook-background-desk-illustrator.png");
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
+
 /*
 
 ███    ███ ███████ ██████  ██  █████       ██████  ██    ██ ███████ ██████  ██ ███████ ███████ 
@@ -1722,7 +1734,7 @@ html {
   /* Main Project Image Area on Large Devices */
 
   .project-details {
-    width: 65%;
+    width: 320%;
   }
 
   .project-image-container,

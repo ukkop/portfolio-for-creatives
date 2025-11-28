@@ -32,18 +32,8 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
-  <body id="top">
-    <style>
-      body {
-        background-image: url("assets/sketchbook/ukkop-andy-poystila-sketchbook-background-desk-illustrator.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        background-color: black;
-      }
-    </style>
-
-    <header class="hero-header">
+  <body id="top" class="sketchbook-bg">
+    <nav class="hero-header">
       <ul class="nav-branding">
         <!-- Logo (standalone LI) -->
         <li class="nav-branding-logo">
@@ -68,7 +58,7 @@
           </ul>
         </li>
       </ul>
-    </header>
+    </nav>
 
     <div class="project-wrapper">
       <aside class="project-aside">
@@ -78,7 +68,7 @@
         </div>
       </aside>
 
-      <main class="project-details">
+      <div class="project-details">
         <figure class="project-image">
           <img
             src="assets/sketchbook/andy-ukko-poystila-portfolio-vancouver-salt-spring-artwork.png"
@@ -89,10 +79,19 @@
             style="max-width: 140%"
           />
         </figure>
-      </main>
+
+        <!-- Hidden #2: White van, rough road -->
+        <a
+          href="assets/sketchbook/saltspring/andy-ukko-poystila-portfolio-ssi-van-01.png"
+          data-lightbox="roadtrip"
+          data-title="White Van on Rough Road"
+          class="hidden"
+        >
+          <img src="image.jpg" alt="White Van on Rough Road" />
+        </a>
+      </div>
     </div>
-
-
+    <!--
     <div class="project-wrapper">
       <aside class="project-aside">
         <div class="project-info">
@@ -100,7 +99,7 @@
           <a href=""> • CLICK TO SCROLL THROUGH </a>
         </div>
       </aside>
-      <main class="project-details">
+      <div class="project-details">
         <figure class="project-image">
           <img
             src="assets/sketchbook/andy-ukko-poystila-portfolio-yetis-yeti-artwork.png"
@@ -111,7 +110,7 @@
             style="max-width: 140%"
           />
         </figure>
-      </main>
+      </div>
     </div>
 
     <div class="project-wrapper">
@@ -121,7 +120,7 @@
           <a href=""> • CLICK TO SCROLL THROUGH </a>
         </div>
       </aside>
-      <main class="project-details">
+      <div class="project-details">
         <figure class="project-image">
           <img
             src="assets/sketchbook/andy-ukko-poystila-portfolio-vancouver-san-francisco-california-artwork.png"
@@ -132,7 +131,7 @@
             style="max-width: 140%"
           />
         </figure>
-      </main>
+      </div>
     </div>
 
     <div class="project-wrapper">
@@ -142,7 +141,7 @@
           <a href=""> • CLICK TO SCROLL THROUGH </a>
         </div>
       </aside>
-      <main class="project-details">
+      <div class="project-details">
         <figure class="project-image">
           <img
             src="assets/sketchbook/andy-ukko-poystila-portfolio-london-scotland-artwork.png"
@@ -153,47 +152,13 @@
             style="max-width: 110%"
           />
         </figure>
-      </main>
+      </div>
     </div>
+
+    -->
     <hr class="dashed" />
     <div class="outer-wrapper">
       <section>
-        <div class="sketchbook-wrapper">
-          <div class="project-details">
-            
-              
-            </a>
-            <a
-              href="assets/sketchbook/andy-ukko-poystila-portfolio-vancouver-salt-spring-artwork.png"
-              data-lightbox="set-1"
-              data-title="Image Set 1"
-            >
-              <figure class="project-image">
-                <img
-                  src="assets/sketchbook/andy-ukko-poystila-portfolio-vancouver-salt-spring-artwork.png"
-                  loading="lazy"
-                  alt="Describe your project"
-                />
-              </figure>
-            </a>
-            <a
-              href="assets/sketchbook/andy-ukko-poystila-portfolio-vancouver-salt-spring-artwork.png"
-              data-lightbox="set-1"
-              data-title="Image Set 1"
-            >
-              <figure class="project-image">
-                <img class="collapse"
-                  src="assets/temp/first-name-last-name--project-title--category--placeholder-neo-classical-3.jpg"
-                  width="1920"
-                  height="1080"
-                  loading="lazy"
-                  alt="Describe your project"
-                />
-              </figure>
-            </a>
-          </div>
-        </div>
-
         <script src="./lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
         <script>
           myID = document.getElementById("myID");
@@ -211,20 +176,6 @@
         </script>
       </section>
     </div>
-
- <!-- EXPERIMENT -->
-
-<div class="row justify-content-center">
-	<a href="assets/rotating-background-image/andy-ukkop-poystila_rotating-background_06.jpg" data-toggle="lightbox" data-gallery="hidden-images" class="col-4">
-		<img src="assets/rotating-background-image/andy-ukkop-poystila_rotating-background_04.jpg" class="img-fluid">
-	</a>
-	<!-- elements not showing, use data-remote or data-src-->
-	<div data-toggle="lightbox" data-gallery="hidden-images" data-src="https://unsplash.it/1200/768.jpg?image=264" data-title="Hidden item 1"></div>
-	<div data-toggle="lightbox" data-gallery="hidden-images" data-src="https://www.youtube.com/embed/dQw4w9WgXcQ" data-title="Hidden item 2"></div>
-	<div data-toggle="lightbox" data-gallery="hidden-images" data-src="https://unsplash.it/1200/768.jpg?image=265" data-title="Hidden item 3"></div>
-	<div data-toggle="lightbox" data-gallery="hidden-images" data-src="https://unsplash.it/1200/768.jpg?image=266" data-title="Hidden item 4"></div>
-	<div data-toggle="lightbox" data-gallery="hidden-images" data-src="https://unsplash.it/1200/768.jpg?image=267" data-title="Hidden item 5"></div>
-</div>
 
     <!--Global Footer -->
 
@@ -299,6 +250,5 @@
         </ul>
       </li>
     </ul>
-
   </body>
 </html>
