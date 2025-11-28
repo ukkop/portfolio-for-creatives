@@ -1766,7 +1766,7 @@ html {
   }
 
   .nav-name {
-    justify-content: center;
+    text-align: left;
   }
   /* About Page Grid for Large Devices */
 
