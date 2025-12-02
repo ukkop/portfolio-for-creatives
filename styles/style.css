@@ -1478,6 +1478,11 @@ html {
 ███████ ██   ██ ██   ██  ██████  ██   ██ 
 */
 
+.error-logo {
+  position: relative; /* z-index only works on positioned elements */
+  z-index: 10; /* A value higher than the background/cursor effect */
+}
+
 .the-garden-door {
   margin-bottom: 1rem;
   justify-content: center;
@@ -1485,10 +1490,12 @@ html {
   height: 100;
   max-width: max-content;
   margin: auto;
+  position: relative; /* z-index only works on positioned elements */
+  z-index: 10; /* A value higher than the background/cursor effect */
 }
 
 .error-headline-wrapper {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -1497,10 +1504,14 @@ html {
   padding: var(--padding-small);
   text-align: center;
   margin: 0 auto;
+  position: fixed;
+  z-index: 1;
 }
 
 .error-page-animation {
   width: 25rem;
+  position: fixed;
+  z-index: 10;
 }
 
 /*

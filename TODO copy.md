@@ -62,4 +62,3 @@ SKETCHBOOK
 404
 
 - add logo for redirect
-- add footer

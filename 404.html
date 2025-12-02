@@ -23,7 +23,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <script src="js/sparklescript.js"></script>
+    <script
+      style="position: relative; z-index: 10"
+      src="js/sparklescript.js"
+    ></script>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
 
@@ -33,6 +36,7 @@
       <li class="nav-branding-logo">
         <a href="index.html" target="_blank">
           <img
+            class="error-logo"
             src="assets/branding-images/myukkoplogo.svg"
             alt="Ukkop portfolio logo"
           />
@@ -44,20 +48,22 @@
       <header class="hero-header">
         <div class="error-headline-wrapper">
           <h2 class="error-page-title error-404">
-            404. Whoops! Looks like you’re lost.
+            404. Whoops! Looks like <br />you’re lost.
           </h2>
           <br />
 
-          <img
-            href="the-garden.html"
-            src="assets/thegarden/the-garden-andy-ukko-poystila-door.gif"
-            alt="404 door to the garden"
-          />
+          <a href="https://ukkop.com/the-garden.html">
+            <img
+              src="assets/thegarden/the-garden-andy-ukko-poystila-door.gif"
+            />
+          </a>
 
           <br />
           <br />
           <br />
-          <h3>you should go through this door...</h3>
+          <a href="https://ukkop.com/the-garden.html">
+            you should go through this door...</a
+          >
         </div>
       </header>
     </section>
