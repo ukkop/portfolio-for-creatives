@@ -1715,7 +1715,7 @@ html {
   .portfolio,
   .project-wrapper,
   .work-sidebar-wrapper {
-    padding: var(--padding-small);
+    padding: var(--padding-large);
   }
 
   /* Project Page Flex Direction on Large Devices */
