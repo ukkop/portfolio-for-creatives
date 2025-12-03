@@ -1734,7 +1734,7 @@ html {
   /* Sidebar on Large Devices */
 
   .project-aside {
-    width: 100%;
+    width: 90%;
     height: 80vh;
     position: -webkit-sticky;
     position: sticky;

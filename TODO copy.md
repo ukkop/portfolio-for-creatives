@@ -54,11 +54,6 @@ PROJECT PAGE
 
 SKETCHBOOK
 
+- lightbox
 - add bg image
-- add additional images
-- add draggable divs
 - add nav, add footer
-
-404
-
-- add logo for redirect
