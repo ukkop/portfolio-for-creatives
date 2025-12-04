@@ -1054,7 +1054,7 @@ a.nav-link-primary-inactive {
 }
 
 /* Logo Image Array Start */
-.about-random-image {
+.random-about-container {
   width: 10rem;
   min-height: 8rem;
   background-size: contain;
