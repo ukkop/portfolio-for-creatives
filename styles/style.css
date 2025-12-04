@@ -1012,6 +1012,30 @@ a.nav-link-primary-inactive {
 /* The grid has 3 main sections: an image, text, and footer.                   */
 /* -------------------------------------------------------------------------- */
 
+.about-rainbow-link {
+  /* Define the gradient background */
+  background-image: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  /* Clip the background to the text */
+  -webkit-background-clip: text; /* For WebKit browsers (Chrome, Safari) */
+  background-clip: text;
+
+  /* Make the text color transparent to reveal the background gradient */
+  color: transparent;
+
+  /* Optional: Add other text styling like font-size, font-weight, etc. */
+  font-size: 1 rem;
+  font-weight: bold;
+}
+
 /* Grid container for the About section */
 .about-grid {
   display: grid; /* Set to grid layout */
