@@ -1607,7 +1607,7 @@ html {
   justify-content: end;
   place-items: inherit;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-color: black;
 }
@@ -1625,10 +1625,8 @@ html {
 }
 
 .sketchbook-bg {
-  background-image: url("assets/sketchbook/ukkop-andy-poystila-sketchbook-background-desk-illustrator.png");
   background-position: center;
   background-size: cover;
-  background-color: black;
 }
 
 /*
