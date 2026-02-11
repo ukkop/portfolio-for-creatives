@@ -6,6 +6,7 @@ Debug in February
 
 GLOBAL
 
+- Fix Index Problem
 - Make Logos' animation more noticable
 - Optimize Images
 
