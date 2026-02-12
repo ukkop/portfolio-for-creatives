@@ -941,7 +941,9 @@ a.nav-link-primary-inactive {
   background-color: var(
     --color-overlay-primary
   ); /* Background color of the overlay */
-  transition: opacity var(--duration-normal), visibility var(--duration-normal);
+  transition:
+    opacity var(--duration-normal),
+    visibility var(--duration-normal);
 }
 
 /* Hover effect on work page grid items */
@@ -1053,32 +1055,34 @@ a.nav-link-primary-inactive {
   grid-row: 1 / 2; /* Image spans the first row */
 }
 
+/* RANDOMIZER CSS */
+
 /* Logo Image Array Start */
-.random-about-container {
+.random-img-container {
   width: 10rem;
   min-height: 8rem;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.selfie-version-1 {
-  background-image: url(/assets/about/andy-ukkop-poystila_about-fish-eye_01.png);
-}
-
-.selfie-version-2 {
-  background-image: url(/assets/about/andy-ukkop-poystila_about-fish-eye_02.png);
-}
-
-.selfie-version-3 {
-  background-image: url(/assets/about/andy-ukkop-poystila_about-fish-eye_03.png);
-}
-
-.selfie-version-4 {
+.img-version-1 {
   background-image: url(/assets/about/aboutfisheyes-andy-ukko-poystila_0000_IMG_4598.png);
 }
 
-.selfie-version-5 {
+.img-version-2 {
   background-image: url(/assets/about/aboutfisheyes-andy-ukko-poystila_0001_IMG_4304.png);
+}
+
+.img-version-3 {
+  background-image: url(/assets/about/aboutfisheyes-andy-ukko-poystila_0002_IMG_3119.png);
+}
+
+.img-version-4 {
+  background-image: url(/assets/about/aboutfisheyes-andy-ukko-poystila_0003_IMG_3087.png);
+}
+
+.img-version-5 {
+  background-image: url(/assets/about/aboutfisheyes-andy-ukko-poystila_0004_IMG_3077.png);
 }
 /* Logo Image Array End */
 
